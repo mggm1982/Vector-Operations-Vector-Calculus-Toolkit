@@ -1,0 +1,240 @@
+[
+  {
+    "id": "test-01",
+    "operation": "Addition",
+    "menu_choice": 1,
+    "stdin": "1\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": [
+      3,
+      2,
+      0
+    ],
+    "expected_output_contains": "(3, 2, 0)"
+  },
+  {
+    "id": "test-02",
+    "operation": "Subtraction",
+    "menu_choice": 2,
+    "stdin": "2\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": [
+      1,
+      -4,
+      4
+    ],
+    "expected_output_contains": "(1, -4, 4)"
+  },
+  {
+    "id": "test-03",
+    "operation": "Scalar multiplication",
+    "menu_choice": 3,
+    "stdin": "3\n2 -1 2\n-2\n0\n",
+    "expected_value": [
+      -4,
+      2,
+      -4
+    ],
+    "expected_output_contains": "(-4, 2, -4)"
+  },
+  {
+    "id": "test-04",
+    "operation": "Scalar division",
+    "menu_choice": 4,
+    "stdin": "4\n2 -1 2\n-2\n0\n",
+    "expected_value": [
+      -1.0,
+      0.5,
+      -1.0
+    ],
+    "expected_output_contains": "(-1, 0.5, -1)"
+  },
+  {
+    "id": "test-05",
+    "operation": "Magnitude",
+    "menu_choice": 5,
+    "stdin": "5\n2 -1 2\n0\n",
+    "expected_value": 3.0,
+    "expected_output_contains": "3"
+  },
+  {
+    "id": "test-06",
+    "operation": "Unit vector",
+    "menu_choice": 6,
+    "stdin": "6\n2 -1 2\n0\n",
+    "expected_value": [
+      0.6666666666666666,
+      -0.3333333333333333,
+      0.6666666666666666
+    ],
+    "expected_output_contains": "(0.666667, -0.333333, 0.666667)"
+  },
+  {
+    "id": "test-07",
+    "operation": "Dot product",
+    "menu_choice": 7,
+    "stdin": "7\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": -5,
+    "expected_output_contains": "-5"
+  },
+  {
+    "id": "test-08",
+    "operation": "Cross product",
+    "menu_choice": 8,
+    "stdin": "8\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": [
+      -4,
+      6,
+      7
+    ],
+    "expected_output_contains": "(-4, 6, 7)"
+  },
+  {
+    "id": "test-09",
+    "operation": "Angle",
+    "menu_choice": 9,
+    "stdin": "9\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": 116.45119909934063,
+    "expected_output_contains": "116.451"
+  },
+  {
+    "id": "test-10",
+    "operation": "Distance",
+    "menu_choice": 10,
+    "stdin": "10\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": 5.744562646538029,
+    "expected_output_contains": "5.74456"
+  },
+  {
+    "id": "test-11",
+    "operation": "Scalar projection",
+    "menu_choice": 11,
+    "stdin": "11\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": -1.3363062095621219,
+    "expected_output_contains": "-1.33631"
+  },
+  {
+    "id": "test-12",
+    "operation": "Vector projection",
+    "menu_choice": 12,
+    "stdin": "12\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": [
+      -0.35714285714285715,
+      -1.0714285714285714,
+      0.7142857142857143
+    ],
+    "expected_output_contains": "(-0.357143, -1.07143, 0.714286)"
+  },
+  {
+    "id": "test-13",
+    "operation": "Perpendicular component",
+    "menu_choice": 13,
+    "stdin": "13\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": [
+      2.357142857142857,
+      0.0714285714285714,
+      1.2857142857142856
+    ],
+    "expected_output_contains": "(2.35714, 0.0714286, 1.28571)"
+  },
+  {
+    "id": "test-14",
+    "operation": "Parallel test",
+    "menu_choice": 14,
+    "stdin": "14\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": false,
+    "expected_output_contains": "Not parallel."
+  },
+  {
+    "id": "test-15",
+    "operation": "Perpendicular test",
+    "menu_choice": 15,
+    "stdin": "15\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": false,
+    "expected_output_contains": "Not perpendicular."
+  },
+  {
+    "id": "test-16",
+    "operation": "Scalar triple product",
+    "menu_choice": 16,
+    "stdin": "16\n2 -1 2\n1 3 -2\n0 2 1\n0\n",
+    "expected_value": 19,
+    "expected_output_contains": "19"
+  },
+  {
+    "id": "test-17",
+    "operation": "Vector triple product",
+    "menu_choice": 17,
+    "stdin": "17\n2 -1 2\n1 3 -2\n0 2 1\n0\n",
+    "expected_value": [
+      0,
+      10,
+      5
+    ],
+    "expected_output_contains": "(0, 10, 5)"
+  },
+  {
+    "id": "test-18",
+    "operation": "Parallelogram area",
+    "menu_choice": 18,
+    "stdin": "18\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": 10.04987562112089,
+    "expected_output_contains": "10.0499"
+  },
+  {
+    "id": "test-19",
+    "operation": "Triangle area",
+    "menu_choice": 19,
+    "stdin": "19\n2 -1 2\n1 3 -2\n0\n",
+    "expected_value": 5.024937810560445,
+    "expected_output_contains": "5.02494"
+  },
+  {
+    "id": "test-20",
+    "operation": "Volume",
+    "menu_choice": 20,
+    "stdin": "20\n2 -1 2\n1 3 -2\n0 2 1\n0\n",
+    "expected_value": 19,
+    "expected_output_contains": "19"
+  },
+  {
+    "id": "zero-divisor",
+    "operation": "Reject zero divisor",
+    "stdin": "4\n1 2 3\n0\n0\n",
+    "expected_output_contains": "Cannot divide by zero."
+  },
+  {
+    "id": "zero-unit",
+    "operation": "Reject zero unit vector",
+    "stdin": "6\n0 0 0\n0\n",
+    "expected_output_contains": "Unit vector is undefined."
+  },
+  {
+    "id": "zero-angle",
+    "operation": "Reject zero angle input",
+    "stdin": "9\n0 0 0\n1 0 0\n0\n",
+    "expected_output_contains": "Angle is undefined."
+  },
+  {
+    "id": "zero-projection",
+    "operation": "Reject projection onto zero",
+    "stdin": "12\n1 2 3\n0 0 0\n0\n",
+    "expected_output_contains": "Projection is undefined."
+  },
+  {
+    "id": "parallel-true",
+    "operation": "Parallel vectors",
+    "stdin": "14\n1 2 3\n2 4 6\n0\n",
+    "expected_output_contains": "Parallel."
+  },
+  {
+    "id": "perpendicular-true",
+    "operation": "Perpendicular vectors",
+    "stdin": "15\n1 0 0\n0 1 0\n0\n",
+    "expected_output_contains": "Perpendicular."
+  },
+  {
+    "id": "invalid-menu",
+    "operation": "Invalid menu number",
+    "stdin": "21\n0\n",
+    "expected_output_contains": "Invalid choice."
+  }
+]

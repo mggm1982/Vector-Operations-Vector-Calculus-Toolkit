@@ -1,0 +1,60 @@
+
+==================================================================================================
+                              VECTOR OPERATIONS TOOLKIT
+==================================================================================================
+
+BASIC VECTOR OPERATIONS
+ ------------------------------
+1. Addition
+2. Subtraction
+3. Scalar multiplication
+4. Scalar division
+5. Magnitude
+6. Unit vector
+7. Dot product
+8. Cross product
+9. Angle between vectors
+10. Distance between points
+11. Scalar projection
+12. Vector projection
+13. Perpendicular component
+14. Check parallel vectors
+15. Check perpendicular vectors
+16. Scalar triple product
+17. Vector triple product
+18. Parallelogram area
+19. Triangle area
+20. Parallelepiped volume
+
+0. Exit
+Enter choice: Enter vector A (x y z): Enter vector B (x y z): Enter vector C (x y z): 19
+
+==================================================================================================
+                              VECTOR OPERATIONS TOOLKIT
+==================================================================================================
+
+BASIC VECTOR OPERATIONS
+ ------------------------------
+1. Addition
+2. Subtraction
+3. Scalar multiplication
+4. Scalar division
+5. Magnitude
+6. Unit vector
+7. Dot product
+8. Cross product
+9. Angle between vectors
+10. Distance between points
+11. Scalar projection
+12. Vector projection
+13. Perpendicular component
+14. Check parallel vectors
+15. Check perpendicular vectors
+16. Scalar triple product
+17. Vector triple product
+18. Parallelogram area
+19. Triangle area
+20. Parallelepiped volume
+
+0. Exit
+Enter choice: Calculator closed.

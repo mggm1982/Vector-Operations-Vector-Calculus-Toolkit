@@ -1,0 +1,3 @@
+Standard C++ headers only: <iostream> and <cmath>.
+No third-party libraries or downloaded dependencies are required.
+Use a C++17-capable compiler. Standard library headers/runtime are supplied by the compiler and are not redistributed here.

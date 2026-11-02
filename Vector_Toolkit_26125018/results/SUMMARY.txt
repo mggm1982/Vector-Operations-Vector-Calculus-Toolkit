@@ -1,0 +1,5 @@
+Compiled original supplied source using g++ -std=c++17 -Wall -Wextra.
+47/47 cases passed.
+20 practice cases and 27 independent testing cases.
+Actual console transcripts are included.
+Screenshot 231746 shows menu input only and is not evidence of a completed calculation.

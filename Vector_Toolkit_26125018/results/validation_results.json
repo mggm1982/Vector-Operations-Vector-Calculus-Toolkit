@@ -1,0 +1,331 @@
+[
+  {
+    "group": "training data",
+    "id": "practice-01",
+    "operation": "Addition",
+    "passed": true,
+    "expected": "(5, 7, 9)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-02",
+    "operation": "Subtraction",
+    "passed": true,
+    "expected": "(-3, -3, -3)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-03",
+    "operation": "Scalar multiplication",
+    "passed": true,
+    "expected": "(2, 4, 6)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-04",
+    "operation": "Scalar division",
+    "passed": true,
+    "expected": "(0.5, 1, 1.5)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-05",
+    "operation": "Magnitude",
+    "passed": true,
+    "expected": "3.74166"
+  },
+  {
+    "group": "training data",
+    "id": "practice-06",
+    "operation": "Unit vector",
+    "passed": true,
+    "expected": "(0.267261, 0.534522, 0.801784)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-07",
+    "operation": "Dot product",
+    "passed": true,
+    "expected": "32"
+  },
+  {
+    "group": "training data",
+    "id": "practice-08",
+    "operation": "Cross product",
+    "passed": true,
+    "expected": "(-3, 6, -3)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-09",
+    "operation": "Angle",
+    "passed": true,
+    "expected": "12.9332"
+  },
+  {
+    "group": "training data",
+    "id": "practice-10",
+    "operation": "Distance",
+    "passed": true,
+    "expected": "5.19615"
+  },
+  {
+    "group": "training data",
+    "id": "practice-11",
+    "operation": "Scalar projection",
+    "passed": true,
+    "expected": "3.64674"
+  },
+  {
+    "group": "training data",
+    "id": "practice-12",
+    "operation": "Vector projection",
+    "passed": true,
+    "expected": "(1.66234, 2.07792, 2.49351)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-13",
+    "operation": "Perpendicular component",
+    "passed": true,
+    "expected": "(-0.662338, -0.0779221, 0.506494)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-14",
+    "operation": "Parallel test",
+    "passed": true,
+    "expected": "Not parallel."
+  },
+  {
+    "group": "training data",
+    "id": "practice-15",
+    "operation": "Perpendicular test",
+    "passed": true,
+    "expected": "Not perpendicular."
+  },
+  {
+    "group": "training data",
+    "id": "practice-16",
+    "operation": "Scalar triple product",
+    "passed": true,
+    "expected": "-3"
+  },
+  {
+    "group": "training data",
+    "id": "practice-17",
+    "operation": "Vector triple product",
+    "passed": true,
+    "expected": "(-12, 9, -2)"
+  },
+  {
+    "group": "training data",
+    "id": "practice-18",
+    "operation": "Parallelogram area",
+    "passed": true,
+    "expected": "7.34847"
+  },
+  {
+    "group": "training data",
+    "id": "practice-19",
+    "operation": "Triangle area",
+    "passed": true,
+    "expected": "3.67423"
+  },
+  {
+    "group": "training data",
+    "id": "practice-20",
+    "operation": "Volume",
+    "passed": true,
+    "expected": "3"
+  },
+  {
+    "group": "testing data",
+    "id": "test-01",
+    "operation": "Addition",
+    "passed": true,
+    "expected": "(3, 2, 0)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-02",
+    "operation": "Subtraction",
+    "passed": true,
+    "expected": "(1, -4, 4)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-03",
+    "operation": "Scalar multiplication",
+    "passed": true,
+    "expected": "(-4, 2, -4)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-04",
+    "operation": "Scalar division",
+    "passed": true,
+    "expected": "(-1, 0.5, -1)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-05",
+    "operation": "Magnitude",
+    "passed": true,
+    "expected": "3"
+  },
+  {
+    "group": "testing data",
+    "id": "test-06",
+    "operation": "Unit vector",
+    "passed": true,
+    "expected": "(0.666667, -0.333333, 0.666667)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-07",
+    "operation": "Dot product",
+    "passed": true,
+    "expected": "-5"
+  },
+  {
+    "group": "testing data",
+    "id": "test-08",
+    "operation": "Cross product",
+    "passed": true,
+    "expected": "(-4, 6, 7)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-09",
+    "operation": "Angle",
+    "passed": true,
+    "expected": "116.451"
+  },
+  {
+    "group": "testing data",
+    "id": "test-10",
+    "operation": "Distance",
+    "passed": true,
+    "expected": "5.74456"
+  },
+  {
+    "group": "testing data",
+    "id": "test-11",
+    "operation": "Scalar projection",
+    "passed": true,
+    "expected": "-1.33631"
+  },
+  {
+    "group": "testing data",
+    "id": "test-12",
+    "operation": "Vector projection",
+    "passed": true,
+    "expected": "(-0.357143, -1.07143, 0.714286)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-13",
+    "operation": "Perpendicular component",
+    "passed": true,
+    "expected": "(2.35714, 0.0714286, 1.28571)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-14",
+    "operation": "Parallel test",
+    "passed": true,
+    "expected": "Not parallel."
+  },
+  {
+    "group": "testing data",
+    "id": "test-15",
+    "operation": "Perpendicular test",
+    "passed": true,
+    "expected": "Not perpendicular."
+  },
+  {
+    "group": "testing data",
+    "id": "test-16",
+    "operation": "Scalar triple product",
+    "passed": true,
+    "expected": "19"
+  },
+  {
+    "group": "testing data",
+    "id": "test-17",
+    "operation": "Vector triple product",
+    "passed": true,
+    "expected": "(0, 10, 5)"
+  },
+  {
+    "group": "testing data",
+    "id": "test-18",
+    "operation": "Parallelogram area",
+    "passed": true,
+    "expected": "10.0499"
+  },
+  {
+    "group": "testing data",
+    "id": "test-19",
+    "operation": "Triangle area",
+    "passed": true,
+    "expected": "5.02494"
+  },
+  {
+    "group": "testing data",
+    "id": "test-20",
+    "operation": "Volume",
+    "passed": true,
+    "expected": "19"
+  },
+  {
+    "group": "testing data",
+    "id": "zero-divisor",
+    "operation": "Reject zero divisor",
+    "passed": true,
+    "expected": "Cannot divide by zero."
+  },
+  {
+    "group": "testing data",
+    "id": "zero-unit",
+    "operation": "Reject zero unit vector",
+    "passed": true,
+    "expected": "Unit vector is undefined."
+  },
+  {
+    "group": "testing data",
+    "id": "zero-angle",
+    "operation": "Reject zero angle input",
+    "passed": true,
+    "expected": "Angle is undefined."
+  },
+  {
+    "group": "testing data",
+    "id": "zero-projection",
+    "operation": "Reject projection onto zero",
+    "passed": true,
+    "expected": "Projection is undefined."
+  },
+  {
+    "group": "testing data",
+    "id": "parallel-true",
+    "operation": "Parallel vectors",
+    "passed": true,
+    "expected": "Parallel."
+  },
+  {
+    "group": "testing data",
+    "id": "perpendicular-true",
+    "operation": "Perpendicular vectors",
+    "passed": true,
+    "expected": "Perpendicular."
+  },
+  {
+    "group": "testing data",
+    "id": "invalid-menu",
+    "operation": "Invalid menu number",
+    "passed": true,
+    "expected": "Invalid choice."
+  }
+]
